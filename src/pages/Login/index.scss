@@ -1,0 +1,119 @@
+.login {
+    button {
+        position: absolute;
+        left: 847px;
+        top: 598px;
+        width: 446px;
+        height: 55px;
+        color: white;
+        background-color: #000000;
+        border-radius: 8px;
+    }
+}
+
+.login-image {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 720px;
+    height: 1024px;
+    background: rgba(154, 154, 235, 0.5);
+}
+
+.image-content {
+    position: absolute;
+    left: 99px;
+    top: 293px;
+    width: 567px;
+    height: 339px;
+    background-image: url('../../../public/images/undraw_login_re_4vu2\ 1.png');
+}
+
+.form-title {
+    position: absolute;
+    left: 907px;
+    top: 224px;
+    width: 384px;
+    height: 37.5px;
+    font-family: RobotoRoman-Medium;
+    font-size: 32px;
+    font-weight: normal;
+    line-height: 37.5px;
+    letter-spacing: 0em;
+    color: #000000;
+}
+
+.email {
+    font-size: 25.75px;
+    position: absolute;
+    left: 847px;
+    top: 301px;
+    width: 446px;
+    height: 103px;
+    input {
+        width: 440px;
+        border-radius: 4px;
+        border: 1px solid #4D4DDB;
+        height: 51.5px;
+        margin-top: 23.75px;
+    }
+}
+
+.password {
+    font-size: 25.75px;
+    position: absolute;
+    left: 847px;
+    top: 424px;
+    width: 446px;
+    height: 103px;
+    input {
+        width: 440px;
+        border-radius: 4px;
+        border: 1px solid #4D4DDB;
+        height: 51.5px;
+        margin-top: 23.75px;
+    }
+}
+
+.check {
+    position: absolute;
+    left: 847px;
+    top: 547px;
+    width: 99px;
+    height: 27.44px;
+    display: flex;
+    font-size: 20px;
+    justify-content: space-between;
+    align-items: flex-end;
+    input{
+        width: 27.44px;
+        height: 27.44px;
+    }
+}
+
+.forget-password {
+    position: absolute;
+    left: 1211px;
+    top: 551px;
+    width: 80px;
+    height: 23.44px;
+    font-family: RobotoRoman-Regular;
+    font-size: 20px;
+    font-weight: normal;
+    line-height: 23.44px;
+    letter-spacing: 0em;
+    color: #000000;
+}
+
+.to-regist {
+    position: absolute;
+    left: 949px;
+    top: 721px;
+    width: 224px;
+    height: 23.44px;
+    font-family: RobotoRoman-Regular;
+    font-size: 20px;
+    font-weight: normal;
+    line-height: 23.44px;
+    letter-spacing: 0em;
+}
