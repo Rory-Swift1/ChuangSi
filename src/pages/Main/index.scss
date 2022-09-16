@@ -1,0 +1,422 @@
+.main {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.Header {
+    width: 100%;
+    height: 771.5px;
+    background-image: url('../../../public/images/Navbar.png');
+    background-size: 100% 100%;
+    overflow: hidden;
+}
+
+.Header-content {
+    margin: 23px 65px 0 65px;
+    height: 559px;
+    position: relative;
+}
+
+.img-content {
+    display: inline-block;
+    width: 95px;
+    height: 95px;
+    background-color: #FFFFFF;
+}
+
+.Navbar-container {
+    width: 100%;
+    height: 95px;
+    position: relative;
+}
+
+.Navbar-title {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 270px;
+    height: 95px;
+
+    div {
+        float: left;
+    }
+
+    span {
+        display: block;
+        height: 95px;
+        line-height: 95px;
+        font-family: RobotoRoman-Regular;
+        font-size: 32px;
+        font-weight: normal;
+        color: #FFFFFF;
+        float: left;
+    }
+}
+
+.Navbar {
+    width: auto;
+    margin: 23px 363px 0 455px;
+
+    li {
+        height: 95px;
+        line-height: 95px;
+        margin-left: 10px;
+        float: left;
+        font-family: RobotoRoman-Regular;
+        font-size: 24px;
+        font-weight: normal;
+        letter-spacing: 0em;
+
+        a {
+            color: #FFFFFF;
+        }
+    }
+}
+
+.Navbar-login {
+    position: absolute;
+    top: 34px;
+    right: 249px;
+    width: 48px;
+    height: 55px;
+
+    a {
+        font-family: RobotoRoman-Regular;
+        font-size: 24px;
+        font-weight: normal;
+        letter-spacing: 0em;
+        color: #FFFFFF;
+    }
+
+}
+
+.Navbar-publish {
+    position: absolute;
+    top: 22px;
+    right: 0;
+
+    button {
+        width: 177px;
+        height: 55px;
+        border-radius: 8px;
+        background-color: #000000;
+        color: #FFFFFF;
+    }
+
+
+}
+
+.header-content-description {
+    position: absolute;
+    left: 2px;
+    top: 195px;
+    font-family: RobotoRoman-Regular;
+    font-size: 48px;
+    font-weight: normal;
+    line-height: 56.25px;
+    letter-spacing: 0em;
+    color: #FFFFFF;
+}
+
+.header-content-description2 {
+    position: absolute;
+    left: 0px;
+    top: 283px;
+    width: 784px;
+    height: 65.63px;
+    font-family: RobotoRoman-Regular;
+    font-size: 56px;
+    font-weight: normal;
+    line-height: 65.63px;
+    letter-spacing: 0em;
+    color: #FFFFFF;
+}
+
+.header-content-description3 {
+    position: absolute;
+    left: 0px;
+    top: 381px;
+    width: 528px;
+    height: 140.63px;
+    font-family: RobotoRoman-Regular;
+    font-size: 24px;
+    font-weight: normal;
+    line-height: 28.13px;
+    letter-spacing: 0em;
+    color: #FFFFFF;
+}
+
+.show-position {
+    position: absolute;
+    left: 0px;
+    top: 508px;
+    height: 51px;
+    display: flex;
+    padding: 16px 40px;
+    border-radius: 8px;
+    background: #000000;
+    font-family: RobotoRoman-Medium;
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 18.75px;
+    letter-spacing: 0em;
+    color: #FFFFFF;
+    z-index: 0
+}
+
+
+@media screen and (max-width:1440px) {
+    html {
+        font-size: 10px;
+    }
+}
+
+@media screen and (min-width:1440px) {
+    html {
+        font-size: 10px;
+    }
+}
+
+.Popular-search {
+    width: 100%;
+    height: 204.5px;
+    background-color: #000000;
+}
+
+.Popular-Category {
+    width: 100%;
+    height: 961px;
+    background-image: url('../../../public/images/Popular\ Category.png');
+    background-size: 100% 100%;
+    position: relative;
+
+    .card-web-design {
+        position: absolute;
+        left: 65px;
+        top: 292px;
+        width: 305px;
+        height: 193px;
+        border-radius: 7px;
+        background: linear-gradient(122deg, #17175C -16%, rgba(0, 0, 0, 0.70) 123%);
+    }
+
+    .Card-Script-Marketing {
+        position: absolute;
+        left: 400px;
+        top: 347px;
+        width: 305px;
+        height: 193px;
+        border-radius: 7px;
+        background: linear-gradient(122deg, #17175C -16%, rgba(0, 0, 0, 0.70) 123%);
+    }
+
+    .Card-Script-Progammer {
+        position: absolute;
+        left: 65px;
+        top: 540px;
+        width: 305px;
+        height: 193px;
+        border-radius: 7px;
+        background: linear-gradient(122deg, #17175C -16%, rgba(0, 0, 0, 0.70) 123%);
+    }
+
+    .Card-Script-Writer {
+        position: absolute;
+        left: 400px;
+        top: 595px;
+        width: 305px;
+        height: 193px;
+        border-radius: 7px;
+        background: linear-gradient(122deg, #17175C -16%, rgba(0, 0, 0, 0.70) 123%);
+    }
+
+    .Competition-title {
+        position: absolute;
+        left: 846px;
+        top: 297px;
+        width: 417px;
+        height: 70px;
+        font-family: RobotoRoman-Medium;
+        font-size: 48px;
+        font-weight: normal;
+        line-height: 56.25px;
+        letter-spacing: 0em;
+        color: #FFFFFF;
+    }
+
+    .Competion-description {
+        position: absolute;
+        left: 846px;
+        top: 399px;
+        width: 575px;
+        height: 253px;
+        font-family: RobotoRoman-Regular;
+        font-size: 16px;
+        font-weight: normal;
+        line-height: 28px;
+        letter-spacing: 0em;
+        color: #FFFFFF;
+    }
+}
+
+.Top-Companies {
+    width: 100%;
+    height: 523px;
+    background-color: #000000;
+}
+
+.Looking {
+    width: 100%;
+    height: 1122px;
+    background: linear-gradient(265deg, #2A2AD1 -9%, #4D4DDB 116%);
+    background-image: url(../../../public/images/Looking.png);
+    background-size: 100% 100%;
+}
+
+.Testimonial {
+    width: 100%;
+    height: 496px;
+    background-color: #000000;
+}
+
+.Footer {
+    width: 100%;
+    height: 904px;
+    background-image: url(../../../public/images/Footer.png);
+    background-size: 100% 100%;
+}
+
+
+
+
+// .search-content {
+
+//     display: flex;
+//     justify-content: space-between;
+
+//     input {
+//         width: 22rem;
+// height: 5.5rem;
+// padding: 1.6rem 4rem;
+// border-radius: 0.8rem;
+// box-sizing: border-box;
+// border: 1px solid #4D4DDB;
+// font-family: RobotoRoman-Regular;
+// font-size: 2rem;
+// font-weight: normal;
+// line-height: 2.344rem;
+// letter-spacing: 0em;
+// color: #000000;
+// z-index: 0
+//     }
+
+//     select {
+//         width: 154px;
+//         height: 55px;
+//         padding: 16px 40px;
+//         border-radius: 8px;
+//         box-sizing: border-box;
+//         border: 1px solid #4D4DDB;
+//         font-family: RobotoRoman-Regular;
+// font-size: 20px;
+// font-weight: normal;
+// line-height: 55px;
+// letter-spacing: 0em;
+// color: #000000;
+// z-index: 0
+//     }
+
+//     button {
+//         width: 140px;
+// height: 55px;
+// color: #FFFFFF;
+// padding: 16px 40px;
+// border-radius: 8px;
+// border: 1px solid #4D4DDB;
+// background: #2A2AD1;
+//     }
+
+// }
+
+// .search-content :nth-child(2) {
+//     width: 120px;
+//     height: 55px;
+//     padding: 16px 40px;
+//     border-radius: 8px;
+//     box-sizing: border-box;
+//     border: 1px solid #4D4DDB;
+// }
+// .search-content :nth-child(4) {
+//     width: 234px;
+// height: 55px;
+// padding: 16px 40px;
+// border-radius: 8px;
+// box-sizing: border-box;
+// border: 1px solid #4D4DDB;
+// }
+// .hot-words{
+//     width:1085px ;
+//     height:57px;
+//     display: flex;
+//     align-items: flex-end;
+// }
+// .hot-words-title{
+//     display: inline-block;
+//     height:30px ;
+//     line-height: 30px;
+// }
+// .hot-words-tags{
+//     display: inline;
+//     span{
+//         display: inline-block;
+//         color: white;
+//         height: 30px;
+//         line-height: 30px;
+//         padding: 0 30px 0 30px;
+//         margin: 0 20px 0 20px;
+//         border-radius: 8px;
+//         background-color: #2A2AD1;
+//     }
+// }
+
+
+
+// .Top-Companies {
+//     position: absolute;
+//     left: 65px;
+//     top: 1949px;
+//     width: 1280px;
+//     height: 496px;
+//     background-image: url('../../../public/images/Top\ Companies.png');
+// }
+
+
+// .Looking-job{
+//     position: absolute;
+//     left: 65px;
+//     top: 2821px;
+//     width: 558px;
+//     height: 244px;
+// background-color: #FFFFFF;
+// border-radius: 8px;
+// }
+// .Looking-expert{
+//     position: absolute;
+// left: 704px;
+// top: 2823px;
+// width: 558px;
+// height: 242px;
+// border-radius: 8px;
+// background-color: #FFFFFF;
+// }
+
+// .Testimonial {
+//     position: absolute;
+//     left: 35px;
+//     top: 3518px;
+//     width: 1358px;
+//     height: 574px;
+//     background-image: url(../../../public/images/Testimonial.png);
+//     background-repeat:repeat-y;
+//     background-position:right top;
+// }
